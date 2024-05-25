@@ -13,9 +13,18 @@
 		3C9F8CE22C01B28200AA2DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F8CE02C01B28200AA2DFD /* Main.storyboard */; };
 		3C9F8CE42C01B28400AA2DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F8CE32C01B28400AA2DFD /* Assets.xcassets */; };
 		3C9F8CE72C01B28400AA2DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F8CE52C01B28400AA2DFD /* LaunchScreen.storyboard */; };
-		3C9F8CF22C01B28400AA2DFD /* PageViewController3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8CF12C01B28400AA2DFD /* PageViewController3Tests.swift */; };
-		3C9F8CFC2C01B28400AA2DFD /* PageViewController3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8CFB2C01B28400AA2DFD /* PageViewController3UITests.swift */; };
-		3C9F8CFE2C01B28400AA2DFD /* PageViewController3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8CFD2C01B28400AA2DFD /* PageViewController3UITestsLaunchTests.swift */; };
+		3C9F8D0F2C01B57200AA2DFD /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8D0E2C01B57200AA2DFD /* ViewController2.swift */; };
+		3C9F8D112C01B57900AA2DFD /* ViewController2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F8D102C01B57900AA2DFD /* ViewController2.storyboard */; };
+		3C9F8D132C01B58600AA2DFD /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8D122C01B58600AA2DFD /* ViewController3.swift */; };
+		3C9F8D152C01B58C00AA2DFD /* ViewController3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F8D142C01B58C00AA2DFD /* ViewController3.storyboard */; };
+		3C9F8D172C01B59600AA2DFD /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8D162C01B59600AA2DFD /* ViewController4.swift */; };
+		3C9F8D192C01B59D00AA2DFD /* ViewController4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F8D182C01B59D00AA2DFD /* ViewController4.storyboard */; };
+		3C9F8D1B2C01B5AE00AA2DFD /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8D1A2C01B5AE00AA2DFD /* ViewController5.swift */; };
+		3C9F8D1D2C01B5B700AA2DFD /* ViewController5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F8D1C2C01B5B700AA2DFD /* ViewController5.storyboard */; };
+		3C9F8D1F2C01DE1F00AA2DFD /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8D1E2C01DE1F00AA2DFD /* HeaderView.swift */; };
+		3C9F8D212C01DE2600AA2DFD /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C9F8D202C01DE2600AA2DFD /* HeaderView.xib */; };
+		3C9F8D232C01DE8700AA2DFD /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8D222C01DE8700AA2DFD /* UIView.swift */; };
+		3C9F8D292C01EEC000AA2DFD /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F8D282C01EEC000AA2DFD /* UIStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +54,19 @@
 		3C9F8CE62C01B28400AA2DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C9F8CE82C01B28400AA2DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C9F8CED2C01B28400AA2DFD /* PageViewController3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewController3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C9F8CF12C01B28400AA2DFD /* PageViewController3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController3Tests.swift; sourceTree = "<group>"; };
 		3C9F8CF72C01B28400AA2DFD /* PageViewController3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PageViewController3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C9F8CFB2C01B28400AA2DFD /* PageViewController3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController3UITests.swift; sourceTree = "<group>"; };
-		3C9F8CFD2C01B28400AA2DFD /* PageViewController3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C9F8D0E2C01B57200AA2DFD /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		3C9F8D102C01B57900AA2DFD /* ViewController2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController2.storyboard; sourceTree = "<group>"; };
+		3C9F8D122C01B58600AA2DFD /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		3C9F8D142C01B58C00AA2DFD /* ViewController3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController3.storyboard; sourceTree = "<group>"; };
+		3C9F8D162C01B59600AA2DFD /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		3C9F8D182C01B59D00AA2DFD /* ViewController4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController4.storyboard; sourceTree = "<group>"; };
+		3C9F8D1A2C01B5AE00AA2DFD /* ViewController5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		3C9F8D1C2C01B5B700AA2DFD /* ViewController5.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController5.storyboard; sourceTree = "<group>"; };
+		3C9F8D1E2C01DE1F00AA2DFD /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3C9F8D202C01DE2600AA2DFD /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		3C9F8D222C01DE8700AA2DFD /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		3C9F8D282C01EEC000AA2DFD /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				3C9F8CD92C01B28200AA2DFD /* PageViewController3 */,
-				3C9F8CF02C01B28400AA2DFD /* PageViewController3Tests */,
-				3C9F8CFA2C01B28400AA2DFD /* PageViewController3UITests */,
 				3C9F8CD82C01B28200AA2DFD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,8 +117,9 @@
 			children = (
 				3C9F8CDA2C01B28200AA2DFD /* AppDelegate.swift */,
 				3C9F8CDC2C01B28200AA2DFD /* SceneDelegate.swift */,
-				3C9F8CDE2C01B28200AA2DFD /* ViewController.swift */,
-				3C9F8CE02C01B28200AA2DFD /* Main.storyboard */,
+				3C9F8D0C2C01B54C00AA2DFD /* extensions */,
+				3C9F8D0B2C01B54400AA2DFD /* views */,
+				3C9F8D0A2C01B53B00AA2DFD /* viewControllers */,
 				3C9F8CE32C01B28400AA2DFD /* Assets.xcassets */,
 				3C9F8CE52C01B28400AA2DFD /* LaunchScreen.storyboard */,
 				3C9F8CE82C01B28400AA2DFD /* Info.plist */,
@@ -110,21 +127,39 @@
 			path = PageViewController3;
 			sourceTree = "<group>";
 		};
-		3C9F8CF02C01B28400AA2DFD /* PageViewController3Tests */ = {
+		3C9F8D0A2C01B53B00AA2DFD /* viewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				3C9F8CF12C01B28400AA2DFD /* PageViewController3Tests.swift */,
+				3C9F8CDE2C01B28200AA2DFD /* ViewController.swift */,
+				3C9F8CE02C01B28200AA2DFD /* Main.storyboard */,
+				3C9F8D0E2C01B57200AA2DFD /* ViewController2.swift */,
+				3C9F8D102C01B57900AA2DFD /* ViewController2.storyboard */,
+				3C9F8D122C01B58600AA2DFD /* ViewController3.swift */,
+				3C9F8D142C01B58C00AA2DFD /* ViewController3.storyboard */,
+				3C9F8D162C01B59600AA2DFD /* ViewController4.swift */,
+				3C9F8D182C01B59D00AA2DFD /* ViewController4.storyboard */,
+				3C9F8D1A2C01B5AE00AA2DFD /* ViewController5.swift */,
+				3C9F8D1C2C01B5B700AA2DFD /* ViewController5.storyboard */,
 			);
-			path = PageViewController3Tests;
+			path = viewControllers;
 			sourceTree = "<group>";
 		};
-		3C9F8CFA2C01B28400AA2DFD /* PageViewController3UITests */ = {
+		3C9F8D0B2C01B54400AA2DFD /* views */ = {
 			isa = PBXGroup;
 			children = (
-				3C9F8CFB2C01B28400AA2DFD /* PageViewController3UITests.swift */,
-				3C9F8CFD2C01B28400AA2DFD /* PageViewController3UITestsLaunchTests.swift */,
+				3C9F8D1E2C01DE1F00AA2DFD /* HeaderView.swift */,
+				3C9F8D202C01DE2600AA2DFD /* HeaderView.xib */,
 			);
-			path = PageViewController3UITests;
+			path = views;
+			sourceTree = "<group>";
+		};
+		3C9F8D0C2C01B54C00AA2DFD /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F8D222C01DE8700AA2DFD /* UIView.swift */,
+				3C9F8D282C01EEC000AA2DFD /* UIStoryboard.swift */,
+			);
+			path = extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +268,11 @@
 			files = (
 				3C9F8CE72C01B28400AA2DFD /* LaunchScreen.storyboard in Resources */,
 				3C9F8CE42C01B28400AA2DFD /* Assets.xcassets in Resources */,
+				3C9F8D152C01B58C00AA2DFD /* ViewController3.storyboard in Resources */,
+				3C9F8D212C01DE2600AA2DFD /* HeaderView.xib in Resources */,
+				3C9F8D1D2C01B5B700AA2DFD /* ViewController5.storyboard in Resources */,
+				3C9F8D112C01B57900AA2DFD /* ViewController2.storyboard in Resources */,
+				3C9F8D192C01B59D00AA2DFD /* ViewController4.storyboard in Resources */,
 				3C9F8CE22C01B28200AA2DFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,9 +298,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C9F8D132C01B58600AA2DFD /* ViewController3.swift in Sources */,
+				3C9F8D172C01B59600AA2DFD /* ViewController4.swift in Sources */,
 				3C9F8CDF2C01B28200AA2DFD /* ViewController.swift in Sources */,
+				3C9F8D0F2C01B57200AA2DFD /* ViewController2.swift in Sources */,
 				3C9F8CDB2C01B28200AA2DFD /* AppDelegate.swift in Sources */,
 				3C9F8CDD2C01B28200AA2DFD /* SceneDelegate.swift in Sources */,
+				3C9F8D292C01EEC000AA2DFD /* UIStoryboard.swift in Sources */,
+				3C9F8D1B2C01B5AE00AA2DFD /* ViewController5.swift in Sources */,
+				3C9F8D232C01DE8700AA2DFD /* UIView.swift in Sources */,
+				3C9F8D1F2C01DE1F00AA2DFD /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +315,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C9F8CF22C01B28400AA2DFD /* PageViewController3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +322,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C9F8CFE2C01B28400AA2DFD /* PageViewController3UITestsLaunchTests.swift in Sources */,
-				3C9F8CFC2C01B28400AA2DFD /* PageViewController3UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,9 +501,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = okue.PageViewController3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -485,9 +533,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = okue.PageViewController3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
