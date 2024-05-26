@@ -69,40 +69,19 @@ extension ViewController: UIPageViewControllerDelegate {
                             transitionCompleted completed: Bool) {
         if let viewController = pageViewController.viewControllers?.first,
            let index = viewControllers.firstIndex(of: viewController) {
-            //　元のボタンのcenterX
-            if let viewController = previousViewControllers.first,
-               let previousIndex = viewControllers.firstIndex(of: viewController) {
-                let previousButtonCenterX = stackView.arrangedSubviews.compactMap {
-                    $0 as? UIButton
-                }[previousIndex].center.x
-                
-                // 次のボタンのcenterX
-                let afterButtonCenterX = stackView.arrangedSubviews.compactMap {
-                    $0 as? UIButton
-                }[index].center.x
-                
-                UIView.animate(withDuration: 0.25) { [weak self] in
-                    guard let self else {
-                        return
-                    }
-                    if pageControl.currentPage < index {
-                        // 次ページに遷移時にviewを次のタグのセンターに移動させる
-                        guard let firstButton = stackView.arrangedSubviews.first as? UIButton else {
-                            return
-                        }
-                        let translationX = (afterButtonCenterX - previousButtonCenterX) + (previousButtonCenterX - firstButton.center.x)
-                        animationView.transform = CGAffineTransform(translationX: translationX, y: 0)
-                    } else {
-                        // 前ページに遷移時にviewのセンターを前ページのタグのセンターに移動させる
-                        guard let firstButton = stackView.arrangedSubviews.first as? UIButton else {
-                            return
-                        }
-                        let translationX = afterButtonCenterX - firstButton.center.x
-                        animationView.transform = CGAffineTransform(translationX: translationX, y: 0)
-                    }
-                }
-            }
+            // 次のボタンのcenterX
+            let afterButtonCenterX = stackView.arrangedSubviews.compactMap {
+                $0 as? UIButton
+            }[index].center.x
             
+            // animationViewを動かす
+            UIView.animate(withDuration: 0.25) { [weak self] in
+                guard let self,
+                      let firstButton = stackView.arrangedSubviews.first as? UIButton else {
+                    return
+                }
+                animationView.transform = CGAffineTransform(translationX: afterButtonCenterX - firstButton.center.x, y: 0)
+            }
             pageControl.currentPage = index
         }
     }
